@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bicycling Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#">CyclingPro</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#trainer">Trainer</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="vh-100 bg-primary text-white d-flex justify-content-center align-items-center">
+    <div class="text-center">
+      <h1>Welcome to CyclingPro</h1>
+      <p>Your ultimate guide to biking adventures!</p>
+      <a href="#about" class="btn btn-light mt-3">Learn More</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>About Us</h2>
+          <p>At CyclingPro, we believe in promoting a healthy lifestyle through biking. Join us to discover scenic routes, expert tips, and a community of cycling enthusiasts.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="about-image.jpg" alt="About Cycling" class="img-fluid rounded">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trainer Section -->
+  <section id="trainer" class="py-5">
+    <div class="container text-center">
+      <h2>Meet Our Trainers</h2>
+      <p>Expert cyclists ready to guide you on your journey.</p>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <img src="trainer1.jpg" alt="Trainer 1" class="img-fluid rounded-circle mb-3">
+          <h5>John Doe</h5>
+          <p>Mountain Biking Specialist</p>
+        </div>
+        <div class="col-md-4">
+          <img src="trainer2.jpg" alt="Trainer 2" class="img-fluid rounded-circle mb-3">
+          <h5>Jane Smith</h5>
+          <p>Road Biking Pro</p>
+        </div>
+        <div class="col-md-4">
+          <img src="trainer3.jpg" alt="Trainer 3" class="img-fluid rounded-circle mb-3">
+          <h5>Mark Johnson</h5>
+          <p>Beginner's Coach</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center">Gallery</h2>
+      <p class="text-center">A glimpse of our biking adventures.</p>
+      <div class="row g-3">
+        <div class="col-md-4"><img src="gallery1.jpg" alt="Gallery 1" class="img-fluid rounded"></div>
+        <div class="col-md-4"><img src="gallery2.jpg" alt="Gallery 2" class="img-fluid rounded"></div>
+        <div class="col-md-4"><img src="gallery3.jpg" alt="Gallery 3" class="img-fluid rounded"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog" class="py-5">
+    <div class="container text-center">
+      <h2>Latest Blog Posts</h2>
+      <p>Stay updated with cycling news and tips.</p>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="blog1.jpg" alt="Blog 1" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Top 10 Cycling Routes</h5>
+              <p class="card-text">Explore the most scenic biking trails across the country.</p>
+              <a href="#" class="btn btn-primary btn-sm">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="blog2.jpg" alt="Blog 2" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Cycling Gear Tips</h5>
+              <p class="card-text">A guide to choosing the perfect gear for every cyclist.</p>
+              <a href="#" class="btn btn-primary btn-sm">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="blog3.jpg" alt="Blog 3" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Maintaining Your Bike</h5>
+              <p class="card-text">Keep your bike in top condition with these maintenance tips.</p>
+              <a href="#" class="btn btn-primary btn-sm">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-dark text-white">
+    <div class="container text-center">
+      <h2>Contact Us</h2>
+      <p>We'd love to hear from you! Reach out for inquiries or collaborations.</p>
+      <form class="mt-4">
+        <div class="row">
+          <div class="col-md-6">
+            <input type="text" class="form-control mb-3" placeholder="Your Name">
+          </div>
+          <div class="col-md-6">
+            <input type="email" class="form-control mb-3" placeholder="Your Email">
+          </div>
+        </div>
+        <textarea class="form-control mb-3" rows="5" placeholder="Your Message"></textarea>
+        <button type="submit" class="btn btn-light">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-3 bg-dark text-white text-center">
+    <p>&copy; 2025 CyclingPro. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
